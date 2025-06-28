@@ -1,0 +1,40 @@
+{
+    "cSpell.words": [
+        "Alyx",
+        "cascadia",
+        "Cascadia",
+        "cascadiacode",
+        "michi",
+        "tailwindcss"
+    ],
+    "svg.preview.background": "black",
+    "piny.project_settings": {
+        "open-pages": [
+            "pinyfakepage.html"
+        ],
+        "urls": {
+            "pinyfakepage.html": {
+                "open-page-views": [
+                    {
+                        "w": 1300,
+                        "h": 0
+                    }
+                ]
+            }
+        },
+        "recent-classes": [
+            "e",
+            "r",
+            "c",
+            "s",
+            "h",
+            "-",
+            "n",
+            "i",
+            "m"
+        ]
+    },
+    "files.associations": {
+        "*.css":"tailwindcss"
+    }
+}

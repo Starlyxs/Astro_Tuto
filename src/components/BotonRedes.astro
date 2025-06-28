@@ -1,0 +1,21 @@
+---
+interface Props {
+    href: string;
+    ariaLabel: string;
+    title: string;
+    icon: string;
+    color?: string;
+    delay?: string;
+}
+
+const { href, ariaLabel, title, icon, color,delay } = Astro.props;
+---
+<a href={href} target="_blank" aria-label={ariaLabel} title={title} class={`p-2 size-10 flex justify-center items-center rounded-full hover:scale-110 transition-transform ${color} sm:size-12
+
+animate-fade-up animate-once animate-duration-[1000ms] ${delay} animate-ease-out
+
+`}>
+    <svg width="28" height="28">
+        <use href={"./sprite.svg#" + icon} />
+    </svg>
+</a>

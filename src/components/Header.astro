@@ -1,18 +1,53 @@
 ---
-console.log("Header component loaded");
+import BotonRedes from "./BotonRedes.astro";
 ---
 
-<header class="py-8 px-6 mx-auto max-w-xl lg:py-16 lg:px-6 h-dvh">
-  <div class="mx-auto text-center mb-8 lg:mb-16">
-    <h2 class="mb-4 text-5xl tracking-tight font-extrabold text-white">
-      SpaceX launches
-    </h2>
-    <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
-      Explore the latest SpaceX launches and missions with Astro.
-    </p>
-  </div>
-  <nav class="flex flex-col items-center justify-between w-full text-center md:flex-row">
-    <a class="text-white"  href="/">últimos proyectos</a>
-    <a class="text-white"  href="/antiguos">Viejos proyectos</a>
-  </nav>
-</header>
+<header class="text-white w-full">
+
+  <img src="./images/michi.webp" alt="Modeus" 
+  
+  class="h-60 sm:h-96 object-cover mask-b-from-50% mask-b-to-100% w-full
+  xl:object-[25%_45%] animate-duration-[900ms]
+  animate-fade animate-ease-in
+  ">
+
+  <header class="flex justify-center items-center flex-col -mt-4 z-10">
+    <span class="text-sky-400
+    text-xl
+    font-mono 
+    px-3 py-1
+    border-2 rounded-full
+    flex items-center 
+    shadow-sm 
+    bg-black
+    cursor-pointer">
+      @AlyxDev
+      <svg width="24" height="24" class="bg-sky-400 inline ml-1 w-5 h-5 rounded-full">
+        <use href="./sprite.svg#verified" />
+      </svg>
+    </span>
+    <h1 class="font-bold leading-tight mt-5 animate-fade-up animate-duration-1000 animate-delay-100 animate-ease-in-out text-2xl font-cascadia-code text-balance p-2 text-center
+    
+    sm:text-4xl
+    xl:text-6xl
+    "
+    
+    >
+      Desarrollador Web - Aprendiz
+    </h1>
+  </header>
+
+
+  <section class="flex gap-2 justify-center mt-5">
+
+    <BotonRedes href="#" ariaLabel="GitHub" title="GitHub de AlyxDev" icon="github" color={"bg-zinc-900"} />
+    <BotonRedes href="#" ariaLabel="Twitter" title="Twitter de AlyxDev" icon="x" color={"bg-black"}  delay="animate-delay-[150ms]" />
+    <BotonRedes href="#" ariaLabel="Instagram" title="Instagram de AlyxDev" icon="instagram" color={"bg-gradient-to-tr from-yellow-300 via-pink-600 to-purple-600"} delay="animate-delay-[200ms]"/>
+    <BotonRedes href="#" ariaLabel="Linkedin" title="Linkedin de AlyxDev" icon="linkedin" color={"bg-white"} delay="animate-delay-[250ms]"/>
+    <BotonRedes href="#" ariaLabel="Youtube" title="Youtube de AlyxDev" icon="youtube" color={"bg-white"} delay="animate-delay-[300ms]"/>
+    <BotonRedes href="#" ariaLabel="Twitch" title="Twitch de AlyxDev" icon="twitch" color={"bg-purple-200"} delay="animate-delay-[350ms]"/>
+
+  </section>
+<main>
+  Aquí van los cursos
+</main>
