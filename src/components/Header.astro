@@ -13,7 +13,7 @@ import BotonRedes from "./BotonRedes.astro";
 
   <header class="flex justify-center items-center flex-col -mt-4 z-10">
     <span class="text-sky-400
-    text-xl
+    text-sm
     font-cascadia-code
     px-3 py-1
     border-2 rounded-full
@@ -22,22 +22,24 @@ import BotonRedes from "./BotonRedes.astro";
     bg-black
     cursor-pointer
     
+    sm:text-xl
+    
     md:text-2xl 
     md:tracking-wider
 
-    xl:text-3xl 
     
     animate-duration-1000
     animate-fade-up 
     ">
     @Starlyxs
-      <svg width="24" height="24" class="bg-sky-400 inline ml-1 w-5 h-5 rounded-full">
+      <svg width="24" height="24" class="bg-sky-400 inline ml-1 size-4 sm:size-5 md:size-6 rounded-full">
         <use href="./sprite.svg#verified" />
       </svg>
     </span>
     <h1 class="font-bold leading-tight mt-5 animate-fade-up animate-duration-1000 animate-delay-100 animate-ease-in-out text-2xl font-cascadia-code text-balance p-2 text-center
     
     sm:text-4xl
+    lg:text-5xl
     xl:text-6xl
     "
     
