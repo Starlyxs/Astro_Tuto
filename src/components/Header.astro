@@ -14,14 +14,23 @@ import BotonRedes from "./BotonRedes.astro";
   <header class="flex justify-center items-center flex-col -mt-4 z-10">
     <span class="text-sky-400
     text-xl
-    font-mono 
+    font-cascadia-code
     px-3 py-1
     border-2 rounded-full
     flex items-center 
     shadow-sm 
     bg-black
-    cursor-pointer">
-      @AlyxDev
+    cursor-pointer
+    
+    md:text-2xl 
+    md:tracking-wider
+
+    xl:text-3xl 
+    
+    animate-duration-1000
+    animate-fade-up 
+    ">
+    @Starlyxs
       <svg width="24" height="24" class="bg-sky-400 inline ml-1 w-5 h-5 rounded-full">
         <use href="./sprite.svg#verified" />
       </svg>
@@ -40,12 +49,12 @@ import BotonRedes from "./BotonRedes.astro";
 
   <section class="flex gap-2 justify-center mt-5">
 
-    <BotonRedes href="#" ariaLabel="GitHub" title="GitHub de AlyxDev" icon="github" color={"bg-zinc-900"} />
-    <BotonRedes href="#" ariaLabel="Twitter" title="Twitter de AlyxDev" icon="x" color={"bg-black"}  delay="animate-delay-[150ms]" />
-    <BotonRedes href="#" ariaLabel="Instagram" title="Instagram de AlyxDev" icon="instagram" color={"bg-gradient-to-tr from-yellow-300 via-pink-600 to-purple-600"} delay="animate-delay-[200ms]"/>
-    <BotonRedes href="#" ariaLabel="Linkedin" title="Linkedin de AlyxDev" icon="linkedin" color={"bg-white"} delay="animate-delay-[250ms]"/>
-    <BotonRedes href="#" ariaLabel="Youtube" title="Youtube de AlyxDev" icon="youtube" color={"bg-white"} delay="animate-delay-[300ms]"/>
-    <BotonRedes href="#" ariaLabel="Twitch" title="Twitch de AlyxDev" icon="twitch" color={"bg-purple-200"} delay="animate-delay-[350ms]"/>
+    <BotonRedes href="https://github.com/Starlyxs" ariaLabel="GitHub" title="GitHub de Starlyxs" icon="github" color={"bg-zinc-900"} />
+    <BotonRedes href="#" ariaLabel="Twitter" title="Twitter de Starlyxs" icon="x" color={"bg-black"}  delay="animate-delay-[150ms]" />
+    <BotonRedes href="#" ariaLabel="Instagram" title="Instagram de Starlyxs" icon="instagram" color={"bg-gradient-to-tr from-yellow-300 via-pink-600 to-purple-600"} delay="animate-delay-[200ms]"/>
+    <BotonRedes href="#" ariaLabel="Linkedin" title="Linkedin de Starlyxs" icon="linkedin" color={"bg-white"} delay="animate-delay-[250ms]"/>
+    <BotonRedes href="#" ariaLabel="Youtube" title="Youtube de Starlyxs" icon="youtube" color={"bg-white"} delay="animate-delay-[300ms]"/>
+    <BotonRedes href="#" ariaLabel="Twitch" title="Twitch de Starlyxs" icon="twitch" color={"bg-purple-200"} delay="animate-delay-[350ms]"/>
 
   </section>
 <main>
