@@ -3,6 +3,9 @@
 import "../styles/global.css";
 import Layout from '../layouts/Layout.astro';
 import BotonRedes from "../components/BotonRedes.astro";
+import { Image } from "astro:assets";
+import Gato from "../assets/images/michi.webp";
+import MichiPC from "../assets/images/michi-pc.webp";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -11,11 +14,10 @@ import BotonRedes from "../components/BotonRedes.astro";
 <Layout title="Starlyxs" description="Portfolio de Starlyxs">
   <header class="text-white w-full ">
 
-    <div class="h-60 sm:h-96 object-cover mask-b-from-40% mask-b-to-100% w-full
-    xl:object-[25%_45%] animate-duration-[900ms]
-    animate-fade animate-ease-in bg-[url('../images/michi.webp')] bg-cover bg-center
-    lg:bg-[url('../images/michi-pc.webp')] lg:bg-cover lg:bg-center
-    ">
+    <div class="h-60 sm:h-96 mask-b-from-40% mask-b-to-100% w-full animate-duration-[900ms]
+    animate-fade animate-ease-in ">
+      <Image class="lg:hidden object-cover object-[25%_50%] w-full h-full" src={Gato} alt="Gato"  />
+      <Image src={MichiPC} alt="Gato-Pc" class="hidden lg:block object-cover object-[25%_50%] w-full h-full" />
     </div>
     <header class="flex justify-center items-center flex-col -mt-4 z-10 bac">
       <h1 class="font-bold leading-tight animate-fade-up animate-duration-1000 animate-delay-100 animate-ease-in-out text-3xl font-cascadia-code text-balance p-2 text-center mt-12
