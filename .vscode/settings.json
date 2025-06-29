@@ -4,7 +4,9 @@
         "cascadia",
         "Cascadia",
         "cascadiacode",
+        "lucide",
         "michi",
+        "starlyx",
         "tailwindcss"
     ],
     "svg.preview.background": "black",
