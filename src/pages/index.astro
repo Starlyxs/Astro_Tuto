@@ -4,6 +4,7 @@ import "../styles/global.css";
 import Layout from '../layouts/Layout.astro';
 import BotonRedes from "../components/BotonRedes.astro";
 import { Image } from "astro:assets";
+import Tape from "../assets/images/tape.webp";
 import Gato from "../assets/images/michi.webp";
 import MichiPC from "../assets/images/michi-pc.webp";
 
@@ -12,51 +13,68 @@ import MichiPC from "../assets/images/michi-pc.webp";
 ---
 
 <Layout title="Starlyxs" description="Portfolio de Starlyxs">
-  <header class="text-white w-full ">
-
-    <div class="h-60 sm:h-96 mask-b-from-40% mask-b-to-100% w-full animate-duration-[900ms]
+  <header class="h-50 sm:h-60 md:h-96 mask-b-from-40% mask-b-to-100% w-full animate-duration-[900ms]
     animate-fade animate-ease-in ">
-      <Image class="lg:hidden object-cover object-[25%_50%] w-full h-full" src={Gato} alt="Gato"  />
-      <Image src={MichiPC} alt="Gato-Pc" class="hidden lg:block object-cover object-[25%_50%] w-full h-full" />
-    </div>
-    <header class="flex justify-center items-center flex-col -mt-4 z-10 bac">
-      <h1 class="font-bold leading-tight animate-fade-up animate-duration-1000 animate-delay-100 animate-ease-in-out text-3xl font-cascadia-code text-balance p-2 text-center mt-12
+    <Image class="lg:hidden object-cover object-[25%_50%] w-full h-full" src={Gato} alt="Gato"  />
+    <Image src={MichiPC} alt="Gato-Pc" class="hidden lg:block object-cover object-[25%_50%] w-full h-full" />
+  </header>
+  <div class="flex justify-center items-center flex-col -mt-4 z-10 bac text-white w-full 
+  md:flex-row
+  ">
+    <section class="flex flex-col justify-center items-center h-full">
       
-      sm:text-4xl
-      lg:text-5xl
-      xl:text-6xl
-      ">
-        Starlyxs
-        <svg class="inline size-16 -ml-8">
-          <use href={"./sprite.svg#code"} />
-      </svg>
-      </h1>
-      <div class="bg-white flex flex-initial box-border  p-4 w-80 h-96 rotate-[15deg] m-30">
-        <span class=" w-full h-72 bg-radial-[at_50%_80%] to-purple-500  from-pink-500 block box-border p-7 ">
-          <img src="https://avatars.githubusercontent.com/u/196558528?v=4" class="w-full h-full object-cover rounded-full" alt="icon-starlyx">
-        </span>
-      </div>
-      <h1 class="font-bold leading-tight animate-fade-up animate-duration-1000 animate-delay-100 animate-ease-in-out text-2xl font-cascadia-code text-balance p-2 text-center mt-5
+      <div class="flex justify-center items-center">
+          <h1 class="font-bold leading-tight animate-fade-up animate-duration-1000 animate-delay-100 animate-ease-in-out text-4xl font-cascadia-code text-balance p-2 text-center mt-3
+          
+          sm:text-5xl
+          lg:-mt-10
+          lg:text-6xl
+          lg:mb-10
+          xl:text-7xl
+          xl:mb-12
+          ">
+            Starlyxs{"</>"}
+          </h1>
+        </div>
+      <h1 class="font-bold leading-tight animate-fade-up animate-duration-1000 animate-delay-100 animate-ease-in-out text-2xl font-cascadia-code text-balance p-2 text-center mt-2
       
       sm:text-2xl
       lg:text-3xl
+      lg:mt-10
       xl:text-4xl
-      "
-      
-      >
+      xl:mt-20
+      ">
         Desarrollador Web - Aprendiz
       </h1>
-    </header>
-  
-  
-    <section class="flex gap-2 justify-center mt-1">
-  
-      <BotonRedes href="https://github.com/Starlyxs" ariaLabel="GitHub" title="GitHub de Starlyxs" icon="github" delay="animate-delay-[100ms]" />
-      <BotonRedes href="#" ariaLabel="X" title="Twitter de Starlyxs" icon="x" delay="animate-delay-[150ms]" />
-      <BotonRedes href="#" ariaLabel="Instagram" title="Instagram de Starlyxs" icon="instagram" delay="animate-delay-[200ms]"/>
-      <BotonRedes href="#" ariaLabel="WhatsApp" title="WhatsApp de Starlyxs" icon="whatsapp" delay="animate-delay-[250ms]"/>
-  
     </section>
+
+    <section class="flex gap-2 justify-center mt-1 p-10
+    sm:p-14
+    lg:p-22
+    lg:pt-32">
+      
+      <div class="bg-white flex flex-initial box-border  p-2 w-48 h-72 rotate-[15deg] 
+      flex-col items-center 
+      lg:w-60
+      lg:h-80
+      xl:w-70
+      xl:h-96
+      xl:p-4">
+        <span class=" w-full h-72 bg-radial-[at_50%_80%] to-purple-500  from-pink-500 block box-border ">
+          <img src="https://avatars.githubusercontent.com/u/196558528?v=4" class="w-full h-full object-cover " alt="icon-starlyx">
+        </span>
+        <div class="flex gap-2 h-16 justify-center items-center pt-2 text-black
+        xl:pt-4">
+          <BotonRedes href="https://github.com/Starlyxs" ariaLabel="GitHub" title="GitHub de Starlyxs" icon="github" delay="animate-delay-[100ms]" />
+          <BotonRedes href="#" ariaLabel="X" title="Twitter de Starlyxs" icon="x" delay="animate-delay-[150ms]" />
+          <BotonRedes href="#" ariaLabel="Instagram" title="Instagram de Starlyxs" icon="instagram" delay="animate-delay-[200ms]"/>
+          <BotonRedes href="#" ariaLabel="WhatsApp" title="WhatsApp de Starlyxs" icon="whatsapp" delay="animate-delay-[250ms]"/>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  
   <main>
     Aquí van los cursos
   </main>
