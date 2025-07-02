@@ -1,5 +1,8 @@
 @import "tailwindcss";
+@plugin "@midudev/tailwind-animations";
 @import "tailwindcss-animated";
+
+
 
 @theme{
     --font-cascadia-code: "Cascadia code";

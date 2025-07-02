@@ -1,0 +1,213 @@
+2025-06-30T16:11:01.319134Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2025-06-30T16:11:01.319522Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "C:/Users/reyes/OneDrive/Documentos/WorkSpace/Astro_Tuto", pattern: "**/*", negated: false }
+2025-06-30T16:11:01.320301Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2025-06-30T16:11:01.320375Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto" }
+2025-06-30T16:11:01.330075Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:01.341446Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode"
+2025-06-30T16:11:01.343835Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode\\extensions.json"
+2025-06-30T16:11:01.344736Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode\\launch.json"
+2025-06-30T16:11:01.345169Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode\\settings.json"
+2025-06-30T16:11:01.345757Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\astro.config.mjs"
+2025-06-30T16:11:01.347075Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\package.json"
+2025-06-30T16:11:01.348353Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public"
+2025-06-30T16:11:01.349317Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public\\favicon.svg"
+2025-06-30T16:11:01.349753Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public\\logo.svg"
+2025-06-30T16:11:01.350826Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public\\sprite.svg"
+2025-06-30T16:11:01.351367Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\README.md"
+2025-06-30T16:11:01.352054Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src"
+2025-06-30T16:11:01.353368Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets"
+2025-06-30T16:11:01.354113Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\astro.svg"
+2025-06-30T16:11:01.354405Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\background.svg"
+2025-06-30T16:11:01.354980Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\images"
+2025-06-30T16:11:01.356064Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\components"
+2025-06-30T16:11:01.356717Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\components\\BotonRedes.astro"
+2025-06-30T16:11:01.357346Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\layouts"
+2025-06-30T16:11:01.358035Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\layouts\\Layout.astro"
+2025-06-30T16:11:01.359037Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\pages"
+2025-06-30T16:11:01.359896Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\pages\\index.astro"
+2025-06-30T16:11:01.360705Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\styles"
+2025-06-30T16:11:01.361407Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\styles\\global.css"
+2025-06-30T16:11:01.362127Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\tsconfig.json"
+2025-06-30T16:11:01.362738Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:01.362789Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:01.362826Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:01.362845Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 15 file(s)
+2025-06-30T16:11:01.369975Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\astro.config.mjs"
+2025-06-30T16:11:01.370259Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public\\sprite.svg"
+2025-06-30T16:11:01.370336Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\package.json"
+2025-06-30T16:11:01.370909Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public\\favicon.svg"
+2025-06-30T16:11:01.370958Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\README.md"
+2025-06-30T16:11:01.371441Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\astro.svg"
+2025-06-30T16:11:01.371504Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public\\logo.svg"
+2025-06-30T16:11:01.371730Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode\\extensions.json"
+2025-06-30T16:11:01.378141Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\background.svg"
+2025-06-30T16:11:01.378910Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode\\launch.json"
+2025-06-30T16:11:01.379042Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode\\settings.json"
+2025-06-30T16:11:01.379103Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\components\\BotonRedes.astro"
+2025-06-30T16:11:01.379188Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\pages\\index.astro"
+2025-06-30T16:11:01.379311Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\layouts\\Layout.astro"
+2025-06-30T16:11:01.379367Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\tsconfig.json"
+2025-06-30T16:11:01.385736Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:01.385804Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:01.385828Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:01.389394Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:01.389450Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:01.389484Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:01.389602Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-06-30T16:11:01.390064Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\styles\\global.css"
+2025-06-30T16:11:01.390094Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:01.390146Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:01.390165Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:01.392431Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:01.392487Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:01.392880Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:01.393705Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:01.393754Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:01.406840Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode"
+2025-06-30T16:11:01.410014Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public"
+2025-06-30T16:11:01.411962Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src"
+2025-06-30T16:11:01.412927Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets"
+2025-06-30T16:11:01.414796Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\images"
+2025-06-30T16:11:01.415962Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\components"
+2025-06-30T16:11:01.417140Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\layouts"
+2025-06-30T16:11:01.418287Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\pages"
+2025-06-30T16:11:01.419493Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\styles"
+2025-06-30T16:11:01.420940Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:01.421635Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:01.433080Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:01.433110Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:01.441023Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode"
+2025-06-30T16:11:01.446565Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public"
+2025-06-30T16:11:01.448471Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src"
+2025-06-30T16:11:01.449386Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets"
+2025-06-30T16:11:01.451189Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\images"
+2025-06-30T16:11:01.452406Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\components"
+2025-06-30T16:11:01.454195Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\layouts"
+2025-06-30T16:11:01.455409Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\pages"
+2025-06-30T16:11:01.459407Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\styles"
+2025-06-30T16:11:01.461296Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:01.488252Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.026904Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2025-06-30T16:11:03.026958Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "C:/Users/reyes/OneDrive/Documentos/WorkSpace/Astro_Tuto", pattern: "**/*", negated: false }
+2025-06-30T16:11:03.027383Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2025-06-30T16:11:03.027416Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto" }
+2025-06-30T16:11:03.027981Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.036159Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode"
+2025-06-30T16:11:03.036979Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode\\extensions.json"
+2025-06-30T16:11:03.037324Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode\\launch.json"
+2025-06-30T16:11:03.037670Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode\\settings.json"
+2025-06-30T16:11:03.038134Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\astro.config.mjs"
+2025-06-30T16:11:03.039102Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\package.json"
+2025-06-30T16:11:03.039616Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public"
+2025-06-30T16:11:03.040216Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public\\favicon.svg"
+2025-06-30T16:11:03.040558Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public\\logo.svg"
+2025-06-30T16:11:03.041031Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public\\sprite.svg"
+2025-06-30T16:11:03.041675Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\README.md"
+2025-06-30T16:11:03.042465Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src"
+2025-06-30T16:11:03.043494Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets"
+2025-06-30T16:11:03.044581Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\astro.svg"
+2025-06-30T16:11:03.044958Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\background.svg"
+2025-06-30T16:11:03.045622Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\images"
+2025-06-30T16:11:03.046925Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\components"
+2025-06-30T16:11:03.047886Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\components\\BotonRedes.astro"
+2025-06-30T16:11:03.048986Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\layouts"
+2025-06-30T16:11:03.049337Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\layouts\\Layout.astro"
+2025-06-30T16:11:03.049704Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\pages"
+2025-06-30T16:11:03.051487Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\pages\\index.astro"
+2025-06-30T16:11:03.052287Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\styles"
+2025-06-30T16:11:03.053500Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\styles\\global.css"
+2025-06-30T16:11:03.054362Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\tsconfig.json"
+2025-06-30T16:11:03.054945Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.054996Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.055020Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.055038Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 15 file(s)
+2025-06-30T16:11:03.055876Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\astro.config.mjs"
+2025-06-30T16:11:03.056028Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\package.json"
+2025-06-30T16:11:03.056578Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\astro.svg"
+2025-06-30T16:11:03.057069Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public\\sprite.svg"
+2025-06-30T16:11:03.057121Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode\\extensions.json"
+2025-06-30T16:11:03.057201Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\components\\BotonRedes.astro"
+2025-06-30T16:11:03.057279Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\pages\\index.astro"
+2025-06-30T16:11:03.057331Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\README.md"
+2025-06-30T16:11:03.057419Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\tsconfig.json"
+2025-06-30T16:11:03.057478Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public\\favicon.svg"
+2025-06-30T16:11:03.057540Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\background.svg"
+2025-06-30T16:11:03.057608Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public\\logo.svg"
+2025-06-30T16:11:03.057675Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode\\launch.json"
+2025-06-30T16:11:03.057742Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode\\settings.json"
+2025-06-30T16:11:03.057782Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\layouts\\Layout.astro"
+2025-06-30T16:11:03.063199Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.063291Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.063316Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.066006Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.066063Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.066089Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.066106Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-06-30T16:11:03.066741Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\styles\\global.css"
+2025-06-30T16:11:03.066798Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.066824Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.066843Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.066911Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.066953Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.067479Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.068186Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.068227Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.077643Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode"
+2025-06-30T16:11:03.081762Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public"
+2025-06-30T16:11:03.083810Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src"
+2025-06-30T16:11:03.084714Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets"
+2025-06-30T16:11:03.086163Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\images"
+2025-06-30T16:11:03.087538Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\components"
+2025-06-30T16:11:03.088687Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\layouts"
+2025-06-30T16:11:03.090695Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\pages"
+2025-06-30T16:11:03.093670Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\styles"
+2025-06-30T16:11:03.095254Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.095947Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.108344Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.108403Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.116262Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode"
+2025-06-30T16:11:03.119631Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public"
+2025-06-30T16:11:03.121959Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src"
+2025-06-30T16:11:03.122617Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets"
+2025-06-30T16:11:03.123809Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\images"
+2025-06-30T16:11:03.125035Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\components"
+2025-06-30T16:11:03.126291Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\layouts"
+2025-06-30T16:11:03.127567Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\pages"
+2025-06-30T16:11:03.128763Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\styles"
+2025-06-30T16:11:03.130274Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.152879Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.647878Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.655898Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode"
+2025-06-30T16:11:03.659088Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public"
+2025-06-30T16:11:03.660863Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src"
+2025-06-30T16:11:03.661696Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets"
+2025-06-30T16:11:03.662859Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\images"
+2025-06-30T16:11:03.663919Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\components"
+2025-06-30T16:11:03.665014Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\layouts"
+2025-06-30T16:11:03.666197Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\pages"
+2025-06-30T16:11:03.667559Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\styles"
+2025-06-30T16:11:03.668962Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.669003Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.669025Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.669042Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 0 file(s)
+2025-06-30T16:11:03.669062Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.669081Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.669098Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.669116Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.669133Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.669153Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.669660Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.669717Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.676268Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\.vscode"
+2025-06-30T16:11:03.679005Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\public"
+2025-06-30T16:11:03.680689Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src"
+2025-06-30T16:11:03.681651Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets"
+2025-06-30T16:11:03.682958Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\assets\\images"
+2025-06-30T16:11:03.684138Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\components"
+2025-06-30T16:11:03.685219Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\layouts"
+2025-06-30T16:11:03.686328Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\pages"
+2025-06-30T16:11:03.687313Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\reyes\\OneDrive\\Documentos\\WorkSpace\\Astro_Tuto\\src\\styles"
+2025-06-30T16:11:03.688567Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.688854Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-06-30T16:11:03.702301Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-06-30T16:11:03.702369Z  INFO get_globs: tailwindcss_oxide::scanner: exit
